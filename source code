@@ -1,1 +1,90 @@
-https://github.com/sarathparthi/webpage-design-exp_1.git
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sarath movie collections</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #141414;
+            color: #fff;
+        }
+        header {
+            background-color: #111;
+            padding: 5px 0;
+        }
+        .logo {
+            text-align: center;
+        }
+        .logo img {
+            width: 150px;
+        }
+        .nav {
+            text-align: center;
+        }
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .movie-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .movie {
+            flex: 1 1 calc(33.33% - 20px);
+        }
+        .movie img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .movie-title {
+            margin-top: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="BrandAssets_Logos_02-NSymbol.jpg" alt="Logo">
+            
+        </div>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">TV Shows</a>
+            <a href="#">Movies</a>
+            <a href="#">My List</a>
+        </div>
+    </header>
+    <div class="container">
+        
+        <h2>Popular Movies</h2>
+        <div class="movie-row">
+            <div class="movie">
+                <img src="oppenheimer-1670924274.jpg" alt="Movie 1">
+                <h2 class="movie-title">Oppenheimer</h2>
+              
+            </div>
+            <div class="movie">
+                <img src="990020216_thalapathy-vijay-leo-first-single-naa-ready-poster_202306.webp" alt="Movie 2">
+                <h2 class="movie-title">LEO</h2>
+            </div>
+            <div class="movie">
+                <img src="download (4).jpeg" alt="Movie 3">
+                <h2 class="movie-title">Interstellar</h2>
+            </div>
+            <!-- Add more movies here -->
+        </div>
+    </div>
+</body>
+</html>
